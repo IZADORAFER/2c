@@ -1,4 +1,4 @@
-.cabeçalho__menu-hunburger {
+.cabeçalho__menu-hunburger{
     width: 24px;
     height: 24px;
     background-image: url(../img/Menu.svg);
@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.container__imagem{
+.container_imagem{
     padding: 1em;
 }
 
@@ -28,21 +28,22 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;             
+    width: 60vw;            /* --------*/
 }
 
 .container__botao:checked ~ .lista-menu{
     display: block;
 }
 
-.lista-menu__título,
-.lista-menu__item{
+.lista-menu__-titulo,
+.lista-menu_item{
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu__título{
+.lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
@@ -51,4 +52,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+.container__botao{
+    display: none;
 }
